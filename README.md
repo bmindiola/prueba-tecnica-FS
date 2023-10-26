@@ -21,7 +21,7 @@ Ejecutar el comando:
 java -jar test-client-info.jar
 ```
 ### Paso 5
-Ingresar a la carpeta test-client-info-frontend y ejecutar los siguientes comandos:
+Ingresar a la carpeta `test-client-info-frontend` y ejecutar los siguientes comandos:
 ```bash
 npm i
 ```

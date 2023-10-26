@@ -31,3 +31,7 @@ ng serve
 ```
 ### Paso 6
 Por ultimo, solo queda ingresar a la URL http://localhost:4200 y probar la aplicación. 
+#### Pantalla #1: Formulario para buscar un cliente
+![Captura desde 2023-10-25 20-44-18](https://github.com/bmindiola/prueba-tecnica-FS/assets/103905552/64808779-ce55-4e10-b7a3-ee6e4d93a98c)
+#### Pantalla #2: Información del cliente
+![Captura desde 2023-10-25 20-44-33](https://github.com/bmindiola/prueba-tecnica-FS/assets/103905552/cf1ef7e0-cc6f-4dc0-83de-b96b4a407836)

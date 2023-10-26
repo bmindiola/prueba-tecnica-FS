@@ -1,0 +1,49 @@
+<app-container-wrapper>
+  <div style="width: 300px;" class="mt-3">
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.firstName"
+          [ngClass]="{'fill': clientInfo.firstName}" />
+      <label for="custom" red-label redPrimary>Primer Nombre</label>
+    </app-input>
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.secondName"
+          [ngClass]="{'fill': clientInfo.secondName}" />
+      <label for="custom" red-label redPrimary>Segundo Nombre</label>
+    </app-input>
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.firstSurname"
+          [ngClass]="{'fill': clientInfo.firstSurname}" />
+      <label for="custom" red-label redPrimary>Primer Apellido</label>
+    </app-input>
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.secondSurname"
+          [ngClass]="{'fill': clientInfo.secondSurname}" />
+      <label for="custom" red-label redPrimary>Segundo Apellido</label>
+    </app-input>
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.phone"
+          [ngClass]="{'fill': clientInfo.phone}" />
+      <label for="custom" red-label redPrimary>Telefono</label>
+    </app-input>
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.address"
+          [ngClass]="{'fill': clientInfo.address}" />
+      <label for="custom" red-label redPrimary>Dirección</label>
+    </app-input>
+    <app-input d-contents>
+      <input appInputEffect red-input redType="outline" redTextAlign="right" id="custom"
+          maxlength="50" [(ngModel)]="clientInfo.cityResidence"
+          [ngClass]="{'fill': clientInfo.cityResidence}" />
+      <label for="custom" red-label redPrimary>Ciudad de Residencia</label>
+    </app-input>
+  </div>
+  <div class="mt-4">
+    <button class="btn btn-primary p-3 rounded-pill" style="width: 300px;" type="button" (click)="back()">Volver</button>
+  </div>
+</app-container-wrapper>
